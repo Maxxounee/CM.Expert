@@ -1,0 +1,114 @@
+
+.main-box {
+display: flex;
+/* background-image: url(img/logo.png);
+background-repeat: no-repeat; */
+height: 1000px; 
+display: flex;
+}
+
+/* logo */
+.logo {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    height: 1000px; 
+    display: flex;
+}
+
+.black-circle {
+    margin-left: 6px;
+    margin-top: 8px;
+    width: 251px;
+    height: 251px;
+    background-color: rgba(38, 31, 16, 1);
+    border-radius: 50%;
+    /* overflow: hidden; */
+}
+
+.white-triangle {
+    width: 50%;
+    height: 50%;
+    transform-origin: 100% 100%;
+    transform: rotate(146deg) skew(23deg);
+    background-color: rgba(255, 255, 255 , 1);
+}  
+
+.white-circle {
+    position: relative;
+    top: -77px;
+    left: 49px;
+    width: 153px;
+    height: 153px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.blue-triangle {
+    width: 50%;
+    height: 50%;
+    transform-origin: 100% 100%;
+    transform: rotate(146deg) skew(23deg);
+    background-color: rgb(30, 175, 252);
+}
+
+/* text */
+
+.text {
+    width: 700px;
+    flex-wrap: wrap;
+    padding-top: 47px;
+    padding-left: 27px;
+    z-index: 22;
+}
+
+.car-market {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.car {
+    font-family: Arial, sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    color: rgba(38, 31, 16, 1);
+
+}
+
+.market {
+    margin-left: 21px;
+    font-family: Arial, sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(38, 31, 16, 1);
+}
+
+.expert-datamining {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.expert{
+    margin-top: -13px;
+    font-family: Arial, sans-serif;
+    font-size: 73px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: rgb(30, 175, 252);
+}
+
+.datamining-platform {
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    margin-left: 11px;
+    margin-top: -5px;
+    line-height: 33px;
+    color: rgba(38, 31, 16, 1);
+}
